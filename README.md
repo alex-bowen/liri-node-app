@@ -4,4 +4,4 @@ LIRI — Language Interpretation and Recognition Interface — is a node-powered
 
 Commands: concert-this, movie-this, spotify-this-song, do-what-it-says
 
-[spotify-this-song](Images/spotifythis).
+![spotify-this-song](Images/spotifythis).
