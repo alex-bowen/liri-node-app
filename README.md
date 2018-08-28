@@ -4,3 +4,11 @@ LIRI -- Language Interpretation and Recognition Interface -- is a node-powered c
 
 
 Commands: concert-this, movie-this, spotify-this-song, do-what-it-says
+
+![concert](images/concertthis.png)
+
+![spotify](images/spotifythis.png)
+
+![concert](images/moviethis.png)
+
+![concert](images/dowhat.png)
