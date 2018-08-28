@@ -7,4 +7,4 @@ LIRI — Language Interpretation and Recognition Interface — is a node-powered
 
 ## concert-this — This command searches the Bandsintown API and returns events based on your search parameter. If no search term is provided, it returns info on Jack White concerts.
 
-![concert this](images/concertthis)
+![concert this](images/concertthis.png)
