@@ -12,6 +12,8 @@ var searchTerm = "";
 var searchTermForPrint = "";
 // -------------------------------------
 
+console.log("ACCEPTED COMMANDS: \nmovie-this\nspotify-this-song\nconcert-this\ndo-what-it-says\n\n");
+
 
 // CREATING SEARCH TERM FOR "PRINTING" TO THE CONSOLE
 for (var i = 3; i < userInput.length; i++) {
@@ -84,10 +86,11 @@ function spotifySearch() {
         console.log("\nSPOTIFY INFO FOR: " + searchTermForPrint + "\n--------------------");
         for (i = 0; i < 3; i++) {
             console.log(
-                "\nArtist: " + JSON.stringify(data.tracks.items[i].artists[0].name)
+                "Artist: " + JSON.stringify(data.tracks.items[i].artists[0].name)
                 + "\nSong: " + JSON.stringify(data.tracks.items[i].name)
                 + "\nAlbum: " + JSON.stringify(data.tracks.items[i].album.name)
-                + "\nPreview URL: " + JSON.stringify(data.tracks.items[i].preview_url)
+                + "\nPreview URL: " + JSON.stringify(data.tracks.items[i].preview_url) 
+                + '\n'
             );
         }
     });
